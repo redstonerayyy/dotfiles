@@ -1,0 +1,1 @@
+cp kwalletrc ~/.config/kwalletrc
