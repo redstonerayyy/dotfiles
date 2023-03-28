@@ -1,0 +1,3 @@
+# update system
+sudo pacman -Syu - < pkglist.txt
+
