@@ -1,0 +1,11 @@
+Steps:
+-install packages
+-change Monitor alignment
+-change login screen
+-change window decorations theme -> Sweet-ambar-blue
+-change task switcher to "thumbnail grid"
+-change session settings
+-bind terminal to Ctrl Alt T
+-start and setup bluetooth "sudo systemctls start bluetooth"
+-login into accounts "steam, protonmail, gmail, iser, twitch, github"
+-download Apex Legends, 

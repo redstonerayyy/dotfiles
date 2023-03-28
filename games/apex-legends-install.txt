@@ -1,0 +1,5 @@
+Settings > Steam Play > Enable Steam Play for all other titles
+Restart Steam
+Optional: Tools > Proton Experimental > Betas > Bleeding Edge
+Install Apex Legends, Proton Experimental, Proton EasyAnticheat Runtime
+
