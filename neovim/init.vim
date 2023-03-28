@@ -19,29 +19,23 @@ set clipboard+=unnamedplus   " using system clipboard
 filetype plugin on
 set cursorline              " highlight current cursorline
 set ttyfast                 " Speed up scrolling in Vim
-" set spell                 " enable spell check (may need to download language package)
-" set noswapfile            " disable creating swap file
-" set backupdir=~/.cache/vim " Directory to store backup files.
+" open new split panes to right and below
+set splitright
+set splitbelow
 
-" plugins
-call plug#begin(“~/.vim/plugged”)
+call plug#begin()
  Plug 'dracula/vim'
+ Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
  Plug 'ryanoasis/vim-devicons'
  Plug 'SirVer/ultisnips'
  Plug 'honza/vim-snippets'
  Plug 'scrooloose/nerdtree'
  Plug 'preservim/nerdcommenter'
  Plug 'mhinz/vim-startify'
- Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
-# set colortheme
-if (has(“termguicolors”))
- set termguicolors
+" color theme
+if (has('termguicolors'))
+    set termguicolors
 endif
-syntax enable
-colorscheme dracula
-
-" open new split panes to right and below
-set splitright
-set splitbelow
+colorscheme tokyonight
