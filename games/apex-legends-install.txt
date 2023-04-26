@@ -1,6 +1,0 @@
-Settings > Steam Play > Enable Steam Play for all other titles
-Restart Steam
-Optional: Tools > Proton Experimental > Betas > Bleeding Edge
-Install Apex Legends, Proton Experimental, Proton EasyAnticheat Runtime
-Launch Options: gamemoderun DXVK_ASYNC=1 -high +fps_max 144
-Enable Compiling of Shaders in Background: Settings > Shader Precaching

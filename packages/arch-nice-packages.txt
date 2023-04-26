@@ -1,6 +1,0 @@
-alacritty
-git
-steam
-zsh
-aur/visual-studio-code-bin
-aur/brave-bin
