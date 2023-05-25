@@ -1,19 +1,15 @@
 # List of curated packages for arch-based Linux distributions
 
 An incomplete list of nice and useful programs and tools. Focused on software developement and
-automation. Sorted into different categories. Adding some in PR or Issues is possible.
+automation. Sorted into different categories. Adding some in PR or Issues is highly desirable.
 
 # Terminal Packages
 
 `alacritty zsh`
 
-# CLI Tools
-
-`git`
-
 # Software Developement
 
-`aur/visual-studio-code-bin`
+`git aur/visual-studio-code-bin`
 
 # Gaming
 
@@ -21,4 +17,4 @@ automation. Sorted into different categories. Adding some in PR or Issues is pos
 
 # Browsers
 
-`aur/brave-bin aur/librewolf-bin`
+`firefox aur/brave-bin aur/librewolf-bin`

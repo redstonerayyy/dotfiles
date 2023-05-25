@@ -1,2 +1,0 @@
-znap source marlonrichert/zsh-autocomplete
-

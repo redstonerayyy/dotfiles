@@ -1,0 +1,1 @@
+sh scripts/install-kde-tools.sh

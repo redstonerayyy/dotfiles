@@ -33,5 +33,5 @@ if (has('termguicolors'))
 endif
 
 " set color sheme
-" colorscheme synthwave84
-colorscheme tokyonight
+colorscheme synthwave84
+" colorscheme tokyonight
