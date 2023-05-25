@@ -23,20 +23,15 @@ set splitbelow
 
 " vim-plug config https://github.com/junegunn/vim-plug (also command overview here)
 call plug#begin()
- Plug 'SirVer/ultisnips'
- Plug 'honza/vim-snippets'
- Plug 'ryanoasis/vim-devicons'
- Plug 'scrooloose/nerdtree'
- Plug 'preservim/nerdcommenter'
- Plug 'mhinz/vim-startify'
- Plug 'dracula/vim'
  Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
- Plug 'artanikin/vim-synthwave84'
+ Plug 'artanikin/vim-synthwave84'   
 call plug#end()
 
-" set color theme
+" enable terminal colors
 if (has('termguicolors'))
     set termguicolors
 endif
-" tokyo night colorsheme
-colorscheme synthwave84
+
+" set color sheme
+" colorscheme synthwave84
+colorscheme tokyonight
