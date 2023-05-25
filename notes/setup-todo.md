@@ -18,6 +18,6 @@
 
 -   login into accounts like steam, protonmail, gmail, iserv, twitch, github
 
-### Shell config
+#### Shell config
 
 -   setup git with`git config --global user.name "<name>"` and `git config --global user.email "<email>"`

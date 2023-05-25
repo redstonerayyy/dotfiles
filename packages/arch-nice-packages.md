@@ -21,4 +21,4 @@ automation. Sorted into different categories. Adding some in PR or Issues is pos
 
 # Browsers
 
-`aur/brave-bin`
+`aur/brave-bin aur/librewolf-bin`
