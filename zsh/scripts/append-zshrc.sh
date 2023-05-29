@@ -1,1 +1,1 @@
-cat ../zshrc.pre.sh >> ~/.zshrc 
+cat ./zshrc.pre.sh >> ~/.zshrc 
