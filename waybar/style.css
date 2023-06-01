@@ -2,10 +2,11 @@
 
 * {
     color: @mauve;
-    border: 0;
-    padding: 0 0;
+    margin: 0;
+    padding: 0;
+    border: none;
     font-family: UbuntuMono;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
 }
  
@@ -14,22 +15,21 @@ window#waybar {
 }
 
 #clock, #battery, #cpu, #memory, #temperature, #backlight, #network {
-    padding: 5px 8px;
+    padding: 3px 3px;
     border-style: solid;
     background-color: shade(@base, 1); 
     opacity: 1;
-    margin: 8px 0px;
+    margin: 3px 0px;
 }
 
 #clock {
     color: @sky;
-    border-radius: 10px;
-    margin: 8px 10px;
+    border-radius: 5px;
 }
 
 #backlight {
     color: @yellow;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 5px 0px 0px 5px;
 }
 
 #temperature {
@@ -55,6 +55,7 @@ window#waybar {
 
 #network{
     color: @green;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 5px 5px 0px;
+    margin-right: 3px;
 }
 

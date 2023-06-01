@@ -1,46 +1,58 @@
-*{
-    font-family: "Overpass Nerd Font";
-    font-size: 16px;
-}
- 
 window {
-    border: 5px solid #2C9FB5;
-    border-radius: 20px;
+    font-family: UbuntuMono;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid #33ccff;
+    background-color: shade(#1e1e2e, 1);
+    font-size: 14px;
+    border-radius: 10px;
 }
- 
+
 #input {
-    margin-bottom: 15px;
-    padding:3px;
-    border-radius: 5px;
+    margin: 5px;
     border: none;
-    color: #b6c0cd;
+    color: #f8f8f2;
+    background-color: rgba(55, 59, 65, 0.95);
 }
- 
+
+#input > image.left {
+    -gtk-icon-transform:translateX(-100%);
+    -gtk-icon-transform:scaleX(0);
+}
+
 #inner-box {
-    background-color: #282f3e;
-    box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.35);
+    margin: 5px;
+    border: none;
+    background-color: transparent;
 }
- 
+
 #outer-box {
     margin: 5px;
-    padding: 10px;
-    background-color: #1E242F;
-    border-radius: 15px;
+    border: none;
+    background-color: transparent;
 }
- 
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
 #text {
-    padding: 5px;
-    color: #b6c0cd;
+    margin: 5px;
+    border: none;
+    color: #c5c8c6;
 }
- 
+
 #entry {
-    padding: 10px;
+    border: none;
 }
- 
-#entry:nth-child(even) {
-    background-color: #1E242F;
+
+#entry:focus {
+    border: none;
 }
- 
+
 #entry:selected {
-    background-color: #B08130;
+    background-color: rgba(55, 59, 65, 0.95);
+    border-radius: 5px;
+    border: none;
 }
