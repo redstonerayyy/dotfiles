@@ -1,0 +1,15 @@
+- name: Install essential packages
+  hosts: localhost
+  connection: local
+  become: yes
+
+  tasks:
+  - name: Upgrade System
+    community.general.pacman:
+      update_cache: true
+      upgrade: true
+
+  - name: Install Packages
+    community.general.pacman:
+      name: 
+        - 'nvtop'

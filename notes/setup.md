@@ -21,3 +21,6 @@
 #### Shell config
 
 -   setup git with`git config --global user.name "<name>"` and `git config --global user.email "<email>"`
+
+pacman -Qqen > "../pkg-lists/pkg-list-$1-$(date +"%Y-%m-%d").txt"
+sudo pacman -Syu - < $1

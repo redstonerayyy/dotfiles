@@ -1,0 +1,23 @@
+cmake dev-base cpp
+ninja dev-base cpp
+clang dev-base cpp
+make dev-base cpp
+
+git dev-base
+
+android-studio dev-full android
+flutter dev-full android ios
+docker dev-full
+docker-compose dev-full
+
+bluez system-essential
+bluez-utils system-essential
+
+alacritty utility terminals
+kitty utility terminals
+btop utility
+htop utility
+
+biber latex
+
+nmap it-sec
